@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app2/pages/homePage.dart';
 
 void main() {
   runApp(const NewsApp());
@@ -11,7 +12,7 @@ class NewsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       // This trailing comma makes auto-formatting nicer for build methods.
+       home: Homepage(),
     );
   }
 }

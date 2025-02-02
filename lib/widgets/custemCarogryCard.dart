@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/pages/BusinessPage.dart';
-import 'package:news_app/pages/HealthPage.dart';
-import 'package:news_app/pages/ReadingPage.dart';
-import 'package:news_app/pages/SciencePage.dart';
-import 'package:news_app/pages/SportsPage.dart';
-import 'package:news_app/pages/TechnologyPage.dart';
-import 'package:news_app/widgets/catagry.dart';
+import 'package:news_app2/pages/BusinessPage.dart';
+import 'package:news_app2/pages/HealthPage.dart';
+import 'package:news_app2/pages/ReadingPage.dart';
+import 'package:news_app2/pages/SciencePage.dart';
+import 'package:news_app2/pages/SportsPage.dart';
+import 'package:news_app2/pages/TechnologyPage.dart';
+import 'package:news_app2/widgets/catagry.dart';
+
 
 class Custemcarogrycard extends StatelessWidget {
   const Custemcarogrycard({super.key});

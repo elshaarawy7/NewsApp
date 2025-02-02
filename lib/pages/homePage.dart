@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/custemCarogryCard.dart';
+import 'package:news_app2/widgets/custemCarogryCard.dart';
+
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -7,6 +8,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -28,7 +30,7 @@ class Homepage extends StatelessWidget {
         ), 
       ), 
 
-        body:SingleChildScrollView(
+        body:const SingleChildScrollView(
           child: const  Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16 , vertical: 100), 
             child: Column(
