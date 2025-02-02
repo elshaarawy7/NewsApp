@@ -3,6 +3,7 @@ import 'package:news_app2/pages/homePage.dart';
 import 'package:dio/dio.dart';
 
 void main() {
+  GetNews();
   runApp(const NewsApp());
 } 
 
